@@ -2,6 +2,7 @@
     background-image: url("images/background_space.jpg");
     width: 400px;
     height: 400px;
+    position: relative;
 }
 #player-controlled-shooter {
     width: 40px;
@@ -9,4 +10,9 @@
     position: relative;
     left: 20px;
     top: 180px;
+}
+.projectile {
+    position: absolute;
+    width: 20px;
+    height: 20px;
 }
